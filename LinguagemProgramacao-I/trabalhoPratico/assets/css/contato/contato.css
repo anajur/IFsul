@@ -1,0 +1,159 @@
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.forms{
+    max-width: 100%;
+    background-color: #F9BC4A;
+    padding: 10px;
+    max-width: 50%;
+    border-radius: 3px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    width: 90%;
+}
+
+.dados-informante {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    margin-right: 5%;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Exo 2', sans-serif;
+}
+
+form input, select {
+    border-color: transparent;
+}
+
+
+.linha-informe {
+    height: 20vh;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.label-linha {
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.assunto-inline {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.assunto-inline input {
+    width: auto;
+}
+
+.mensagem p, label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.mensagem label {
+    font-weight: normal;
+}
+
+.botao {
+    width: 20%;
+}
+
+.footer-form {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-form #enviar {
+    background-color: #7F7EA3;
+    border-radius: 3px;
+    width: 180px;
+    height: 40px;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border-color: transparent;
+}
+
+.text-area {
+    resize: none;
+    border-color: transparent;
+    width: 100%;
+    color: #A9A9A9;
+    height: 60px;
+}
+
+
+.item-div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.assunto-inline .botoes {
+    margin: 2% 2% 2% 0;
+}
+
+.assunto-inline .texto {
+    margin: 2% 2% 2% 0;
+}
+
+#favorito {
+    color: #A9A9A9;
+}
+
+input, textarea, select {
+    border-radius: 3px;
+    outline: 0;
+}
+
+input, select {
+    height: 25px;
+}
