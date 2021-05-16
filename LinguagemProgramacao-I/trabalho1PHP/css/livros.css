@@ -1,0 +1,30 @@
+.boxtitulo{
+    height: 200px;
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+.subtitulo{
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 40px;  
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+.listalivros{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}

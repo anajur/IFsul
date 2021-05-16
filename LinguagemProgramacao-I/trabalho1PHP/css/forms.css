@@ -1,0 +1,80 @@
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+.item-div {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    
+}
+
+input {
+    width: 280px;
+    height: 30px;
+    border: none; 
+    border:solid 1px #ccc;
+    border-radius: 5px;
+}
+input[type=checkbox]  {
+    width: 15px;
+    height: 15px;
+    
+}
+input[type=radio]  {
+    width: 15px;
+    height: 15px;
+    
+}
+button {
+    cursor: pointer;
+    background-color: #7F7EA3;
+    border-radius: 3px;
+    width: 180px;
+    height: 40px;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nome{
+    color: #3B0B39;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}

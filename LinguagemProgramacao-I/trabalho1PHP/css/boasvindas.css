@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.container{
+    height: 300px;
+    font-size: 40px;
+    background-color: #F2F2F2;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.boasvindas{
+    background-color: #58407B;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 40%;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 40px;
+    border-radius: 2px;
+
+}
+
+
+
+p{
+    margin: 0;
+}
+
+.box {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;  
+    height: 200px;
+   display: flex;
+   padding: 30px;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+     
+}
+.item-perfil{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.boxlivro{
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;  
+    height: 200px;
+    width: 40%;
+   position: absolute;
+   left: 28%;
+   padding: 30px; 
+}
