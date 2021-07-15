@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ArvoresBinarias/ArvoreBinaria/src"/>
+	<classpathentry kind="src" path="ArvoresBinarias/Arvores/src"/>
+	<classpathentry kind="src" path="Filas/src"/>
+	<classpathentry kind="src" path="FilasDinamicasExtra/src"/>
+	<classpathentry kind="src" path="Revisão/EDados3K/src"/>
+	<classpathentry kind="output" path="Filas/out/production/Filas"/>
+</classpath>
